@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background: linear-gradient(to bottom, #3e3c34, #ff6600);
 }
 
 .logo {
@@ -39,4 +40,28 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  width: 30%;
+  padding: 15px;
+  font-size: 15px;
+}
+
+thead {
+  background-color: #3e3c34;
+}
+
+th {
+  font-size: 20px;
+  width: 15%;
+}
+
+img {
+  max-width: 100px;
 }
